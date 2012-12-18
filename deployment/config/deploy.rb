@@ -26,6 +26,9 @@ role :app, domain
 role :web, domain
 role :db,  domain, :primary => true
 
+# first comment
+# second comment
+
 set :deploy_via, :remote_cache
 
 after "deploy:setup", "deploy:deploy"
